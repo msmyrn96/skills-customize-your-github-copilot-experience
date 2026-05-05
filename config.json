@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "interactive-web-frontends",
+      "title": "Interactive Web Frontends with JavaScript",
+      "description": "Build dynamic web pages that interact with REST APIs using HTML, CSS, and JavaScript",
+      "path": "assignments/interactive-web-frontends",
+      "dueDate": "2026-05-12",
+      "attachments": [
+        {
+          "name": "HTML Template",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "CSS Styles",
+          "file": "styles.css",
+          "type": "txt"
+        },
+        {
+          "name": "JavaScript Code",
+          "file": "script.js",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }

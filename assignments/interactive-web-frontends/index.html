@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+            <p>Manage your tasks with this interactive web application</p>
+        </header>
+
+        <main>
+            <!-- TODO: Add form for creating new tasks -->
+            <section id="task-form">
+                <h2>Add New Task</h2>
+                <form id="new-task-form">
+                    <div class="form-group">
+                        <label for="task-title">Title:</label>
+                        <input type="text" id="task-title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="task-description">Description:</label>
+                        <textarea id="task-description"></textarea>
+                    </div>
+                    <button type="submit">Add Task</button>
+                </form>
+            </section>
+
+            <!-- TODO: Add section for displaying tasks -->
+            <section id="task-list">
+                <h2>Your Tasks</h2>
+                <div id="loading">Loading tasks...</div>
+                <div id="tasks-container">
+                    <!-- Tasks will be displayed here -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
